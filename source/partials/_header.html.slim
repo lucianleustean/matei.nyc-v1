@@ -1,1 +1,4 @@
-h1 Welcome
+header
+  nav.links
+    - data.projects.each do |k, h|
+      = link_to h.url_title, h.slug
