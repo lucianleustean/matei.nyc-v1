@@ -16,6 +16,10 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+data['projects'].each do |k, h|
+  proxy "#{h.slug}/index.html", 'templates/project.html', locals: { project: h }, ignore: true
+end
+
 # General configuration
 
 # Reload the browser automatically whenever files change
@@ -42,3 +46,8 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+# Force HTML5 to avoid self-closing tags
+Slim::Engine.options[:format] = :html
+# Set slim-lang output style
+Slim::Engine.options[:pretty] = true
