@@ -1,4 +1,6 @@
 - content_for(:description, project.summary)
 
-= project.body
-= image_tag project.image
+= Kramdown::Document.new(project.body).to_html
+
+- if project.image
+  = image_tag project.image.url, alt: project.image.title
