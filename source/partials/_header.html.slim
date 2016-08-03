@@ -1,4 +1,4 @@
-header
+#header
   ul
     - data.projects.each do |k, h|
-      li = link_to h.title, "/#{h.slug}"
+      li = link_to h.title, "/#{h.slug}", class: "nav", data: h.id

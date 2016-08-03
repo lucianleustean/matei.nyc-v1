@@ -1,5 +1,35 @@
+.hovered {
+  background: {
+    repeat: no-repeat;
+    position-x: center;
+    position-y: center;
+    size: cover;
+  }
+}
+
 .project {
   img {
     width: 100%;
   }
+}
+
+// Preload background images for navigation
+body:after {
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  content:
+    image-url("images/intro/adidas.jpg")
+    image-url("images/intro/at&t.jpg")
+    image-url("images/intro/bals.jpg")
+    image-url("images/intro/cnn.jpg")
+    image-url("images/intro/fanta.jpg")
+    image-url("images/intro/godaddy.jpg")
+    image-url("images/intro/google.jpg")
+    image-url("images/intro/hornbach.jpg")
+    image-url("images/intro/ibm.jpg")
+    image-url("images/intro/jager.jpg")
+    image-url("images/intro/lole.jpg")
+    image-url("images/intro/matei.jpg")
+    image-url("images/intro/netjets.jpg")
+    image-url("images/intro/netwerking.jpg")
+    image-url("images/intro/theyskens.jpg");
 }
