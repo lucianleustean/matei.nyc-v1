@@ -7,9 +7,131 @@
   }
 }
 
+
 .project {
+  min-height: 100vh;
+  padding: 10%;
+  max-width: 100em;
+  margin: auto;
+
   img {
     width: 100%;
+  }
+
+  .google {
+    margin: 0 20em 0 9em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .hornbach {
+    margin: 0 34em 0 7em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .cnn {
+    margin: 0 0 0 33em;
+
+    p {
+      padding: .5em;
+      text-align: right;
+    }
+  }
+
+  .adidas {
+    margin: 0 19em 0 13em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .godaddy {
+    margin: 0 25em 0 10em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .fanta {
+    margin: 0 0 0 30em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .lole {
+    margin: 0 15em 0 20em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .att {
+    margin: 0 0 0 33em;
+
+    p {
+      padding: .5em;
+      text-align: right;
+    }
+  }
+
+  .netjets {
+    margin: 0 10em 0 22em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .ibm {
+    margin: 0 25em 0 10em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .jager {
+    margin: 0 19em 0 13em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .netwerking {
+    margin: 0 15em 0 14em;
+
+    p {
+      padding: .5em;
+      text-align: right;
+    }
+  }
+
+  .theyskens {
+    margin: 0 15em 0 20em;
+
+    p {
+      padding: .5em;
+    }
+  }
+
+  .bals {
+    margin: 0 15em 0 25em;
+
+    p {
+      padding: .5em;
+      text-align: right;
+    }
   }
 }
 
