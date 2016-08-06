@@ -48,21 +48,21 @@ a, a:hover, a:focus, a:visited   {
 
 @media screen and (max-width: 62em) {
 
-  .project .matei,
-  .project .google,
-  .project .hornbach,
-  .project .cnn,
-  .project .adidas,
-  .project .godaddy,
-  .project .fanta,
-  .project .lole,
-  .project .att,
-  .project .netjets,
-  .project .ibm,
-  .project .jager,
-  .project .netwerking,
-  .project .theyskens,
-  .project .bals {
+  .project .matei .description,
+  .project .google .description,
+  .project .hornbach .description,
+  .project .cnn .description,
+  .project .adidas .description,
+  .project .godaddy .description,
+  .project .fanta .description,
+  .project .lole .description,
+  .project .att .description,
+  .project .netjets .description,
+  .project .ibm .description,
+  .project .jager .description,
+  .project .netwerking .description,
+  .project .theyskens .description,
+  .project .bals .description {
     margin: 0;
   }
 }

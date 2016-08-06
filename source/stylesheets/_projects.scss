@@ -7,9 +7,8 @@
   }
 }
 
-
 .project {
-  min-height: 100vh;
+  min-height: 100%;
   padding: 10%;
   max-width: 100em;
   margin: auto;
@@ -18,15 +17,32 @@
     width: 100%;
   }
 
-  .google {
-    margin: 0 20em 0 9em;
+  .grafics {
+    position: relative;
 
-    p {
-      padding: .5em;
+    .gif {
+      position: absolute;
+      width: 100%;
     }
   }
 
-  .hornbach {
+  .google {
+    .description {
+      margin: 0 20em 0 9em;
+
+      p {
+        padding: .5em;
+      }
+    }
+
+    .gif {
+      right: 9%;
+      max-width: 45%;
+      top: 4%;
+    }
+  }
+
+  .hornbach .description {
     margin: 0 34em 0 7em;
 
     p {
@@ -35,31 +51,49 @@
   }
 
   .cnn {
-    margin: 0 0 0 33em;
+    .description {
+      margin: 0 0 0 33em;
 
-    p {
-      padding: .5em;
-      text-align: right;
+      p {
+        padding: .5em;
+        text-align: right;
+      }
+    }
+
+    .gif {
+      left: 5%;
+      max-width: 17%;
+      top: 36%;
     }
   }
 
   .adidas {
-    margin: 0 19em 0 13em;
+    .description {
+      margin: 0 19em 0 13em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+
+    .gif {
+      right: 0%;
+      max-width: 18%;
+      top: 22%;
     }
   }
 
   .godaddy {
-    margin: 0 25em 0 10em;
+    .description {
+      margin: 0 25em 0 10em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
     }
   }
 
-  .fanta {
+  .fanta .description {
     margin: 0 0 0 30em;
 
     p {
@@ -67,7 +101,7 @@
     }
   }
 
-  .lole {
+  .lole .description {
     margin: 0 15em 0 20em;
 
     p {
@@ -75,7 +109,7 @@
     }
   }
 
-  .att {
+  .att .description {
     margin: 0 0 0 33em;
 
     p {
@@ -84,7 +118,7 @@
     }
   }
 
-  .netjets {
+  .netjets .description {
     margin: 0 10em 0 22em;
 
     p {
@@ -93,14 +127,56 @@
   }
 
   .ibm {
-    margin: 0 25em 0 10em;
+    .description {
+      margin: 0 25em 0 10em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+
+    .gifs {
+      .gif {
+        &:nth-of-type(1) {
+          left: 12.5%;
+          max-width: 19%;
+          top: 47.3%;
+        }
+
+        &:nth-of-type(2) {
+          left: 56.6%;
+          max-width: 26%;
+          top: 61.4%;
+        }
+
+        &:nth-of-type(3) {
+          left: 32.1%;
+          max-width: 24%;
+          top: 55.5%;
+        }
+
+        &:nth-of-type(4) {
+          left: 56.6%;
+          max-width: 23%;
+          top: 35%;
+        }
+
+        &:nth-of-type(5) {
+          left: 32.1%;
+          max-width: 24%;
+          top: 14.9%;
+        }
+
+        &:nth-of-type(6) {
+          left: 56.6%;
+          max-width: 25%;
+          top: 6.2%;
+        }
+      }
     }
   }
 
-  .jager {
+  .jager .description {
     margin: 0 19em 0 13em;
 
     p {
@@ -109,15 +185,23 @@
   }
 
   .netwerking {
-    margin: 0 15em 0 14em;
+    .description {
+      margin: 0 15em 0 14em;
 
-    p {
-      padding: .5em;
-      text-align: right;
+      p {
+        padding: .5em;
+        text-align: right;
+      }
+    }
+
+    .gif {
+      left: 37%;
+      max-width: 26%;
+      top: 0;
     }
   }
 
-  .theyskens {
+  .theyskens .description {
     margin: 0 15em 0 20em;
 
     p {
@@ -125,7 +209,7 @@
     }
   }
 
-  .bals {
+  .bals .description {
     margin: 0 15em 0 25em;
 
     p {

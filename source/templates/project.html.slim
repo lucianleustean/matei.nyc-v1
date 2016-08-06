@@ -1,8 +1,15 @@
 #container.project
   - content_for(:description, project.summary)
-  
-  div{class=project.id}
-    = Kramdown::Document.new(project.body).to_html
 
-  - if project.image
-    = image_tag project.image.url, alt: project.image.title
+  div{class=project.id}
+    .description
+      = Kramdown::Document.new(project.body).to_html
+
+    .grafics
+      - if project.image
+        = image_tag project.image.url, alt: project.image.title
+
+      - if project.gifs
+        .gifs
+          - project.gifs.each do |gif|
+            = image_tag gif.url, class: "gif"
