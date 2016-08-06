@@ -32,13 +32,63 @@ a, a:hover, a:focus, a:visited   {
   text-shadow: 0.5px 0.5px 1px black;
 }
 
-#header {
-  height: 100vh;
-  width: 100%;
+// Helper classes
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
 
-  a:hover {
-    color: green;
+.clearfix:after {
+  clear: both;
+}
+
+@import 'header';
+@import 'projects';
+
+@media screen and (max-width: 62em) {
+
+  .project .matei,
+  .project .google,
+  .project .hornbach,
+  .project .cnn,
+  .project .adidas,
+  .project .godaddy,
+  .project .fanta,
+  .project .lole,
+  .project .att,
+  .project .netjets,
+  .project .ibm,
+  .project .jager,
+  .project .netwerking,
+  .project .theyskens,
+  .project .bals {
+    margin: 0;
   }
 }
 
-@import 'projects';
+@media screen and (max-width: 52em) {}
+
+@media screen and (max-width: 36em) {
+  #header {
+    height: 100%;
+
+    li {
+      margin-bottom: 0;
+
+      &:nth-child(2),
+      &:nth-child(1),
+      &:nth-child(5),
+      &:nth-child(11),
+      &:nth-child(13) {
+        margin-bottom: 0;
+      }
+
+      .nav {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}

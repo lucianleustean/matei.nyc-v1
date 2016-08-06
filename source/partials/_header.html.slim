@@ -1,4 +1,4 @@
 #header
-  ul
+  ul.navigation
     - data.projects.each do |k, h|
-      li = link_to h.title, "/#{h.slug}", class: "nav", data: h.id
+      li.clearfix = link_to h.title, "/#{h.slug}", class: "nav #{h.id}", data: h.id
