@@ -1,27 +1,30 @@
-#container.project
+#container
   - content_for(:description, project.summary)
 
-  div{class=project.id}
-    .description
-      = Kramdown::Document.new(project.body).to_html
+  #project
+    div{ class=project.id }
+      .delimitation ✧✧✧
 
-    .grafics
-      - if project.image
-        = image_tag project.image.url, alt: project.image.title
+      .description
+        = Kramdown::Document.new(project.body).to_html
 
-      - if project.gifs
-        .gifs
-          - project.gifs.each do |gif|
-            = image_tag gif.url, class: "gif"
+      .grafics
+        - if project.image
+          = image_tag project.image.url, alt: project.image.title
 
-      - if project.videos
-        .videos
-          - project.videos.each do |video|
-            .video
-              = image_tag video.overlayImage, class: "overlayImage"
-              iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="hidden"
+        - if project.gifs
+          .gifs
+            - project.gifs.each do |gif|
+              = image_tag gif.url, class: "gif"
 
-      - if project.github
-        .github
-          a href="#{project.github.url}" target="_blank"
-            = image_tag project.github.image
+        - if project.videos
+          .videos
+            - project.videos.each do |video|
+              .video
+                = image_tag video.overlayImage, class: "overlayImage"
+                iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="hidden"
+
+        - if project.github
+          .github
+            a href="#{project.github.url}" target="_blank"
+              = image_tag project.github.image

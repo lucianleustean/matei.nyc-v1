@@ -1,6 +1,8 @@
 #header {
+  position: fixed;
   height: 100vh;
   width: 100%;
+  top: 0;
 
   a, a:hover, a:focus, a:visited   {
     text-decoration: none;

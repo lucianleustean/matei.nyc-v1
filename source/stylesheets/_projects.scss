@@ -7,9 +7,15 @@
   }
 }
 
-.project {
+#container {
+  position: relative;
+  margin-top: 100vh;
+}
+
+#project {
+  background-color: white;
   min-height: 100%;
-  padding: 5% 10%;
+  padding: 0 10% 5% 10%;
   max-width: 100em;
   margin: auto;
 
@@ -27,6 +33,11 @@
   }
 
   .description { p { padding: .5em; } }
+
+  .delimitation {
+    text-align: center;
+    padding: 5%;
+  }
 
   .google {
     .description { margin: 0 20em 0 9em; }
