@@ -39,6 +39,13 @@
     padding: 5%;
   }
 
+  .matei .description {
+    p {
+       padding: .5em;
+       text-align: right;
+     }
+   }
+
   .google {
     .description { margin: 0 20em 0 9em; }
 
@@ -77,7 +84,10 @@
   }
 
   .cnn {
-    .description { margin: 0 0 0 33em; }
+    .description {
+      margin: 0 0 0 33em;
+      text-align: right;
+    }
 
     .gif {
       left: 5%;
