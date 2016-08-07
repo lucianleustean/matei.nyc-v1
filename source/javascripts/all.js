@@ -38,3 +38,16 @@ function mouseOut (e) {
   document.getElementById("header").classList.remove("hovered");
   document.getElementById("header").removeAttribute("style", "background-image: url('/images/intro/" + className + ".jpg');");
 }
+
+// play videos by clicking the image overlay
+var videos = document.getElementsByClassName("video");
+
+for (var i = 0; i < videos.length; i++) {
+  videos[i].addEventListener("click", playVideo, false);
+}
+
+function playVideo (e) {
+  e.target.classList.add("hidden");
+  e.target.nextSibling.classList.remove("hidden");
+  e.target.nextSibling.src += "&autoplay=1";
+}

@@ -39,6 +39,14 @@ a, a:hover, a:focus, a:visited   {
     height: 100%;
     width: 100%;
   }
+
+  .overlayImage {
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 // Helper classes

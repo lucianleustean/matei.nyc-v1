@@ -17,4 +17,6 @@
       - if project.videos
         .videos
           - project.videos.each do |video|
-            iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="video"
+            .video
+              = image_tag video.overlayImage, class: "overlayImage"
+              iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="hidden"
