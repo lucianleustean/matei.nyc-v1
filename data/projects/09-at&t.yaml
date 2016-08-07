@@ -1,4 +1,4 @@
-:id: 09-at&t
+:id: att
 :title: AT&T – Brackets By 6-Year-Olds
 :slug: AT&T–Brackets-By-6-Year-Olds
 :summary: AT&T, Brackets by 6-year-olds, BBDO New York, Matei Curtasu, NCAA, March Madness.
@@ -11,3 +11,6 @@
 :image:
   :title: AT&T – Brackets By 6-Year-Olds
   :url: "/images/AT&T.jpg"
+:videos:
+- :overlayImage: "images/videos/att_vid.jpg"
+  :url: "https://www.youtube.com/embed/S8BnpDYfkA8?rel=0&amp;showinfo=0"

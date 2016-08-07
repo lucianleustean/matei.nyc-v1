@@ -1,4 +1,4 @@
-:id: 05-adidas
+:id: adidas
 :title: adidas – Rambazamba Do Brasil
 :slug: adidas–Rambazamba-Do-Brasil
 :summary: adidas, Rambazamba Do Brasil, Heimat TBWA Berlin, Germany, Matei Curtasu, Deutschland, Mannschaft, World Cup 2014, Brazil World Cup, all in.
@@ -11,3 +11,8 @@
 :image:
   :title: adidas – Rambazamba Do Brasil
   :url: "/images/ADIDAS.jpg"
+:gifs:
+- :url: "images/gifs/adidas.gif"
+:videos:
+- :overlayImage: "images/videos/adidas_vid.jpg"
+  :url: "https://www.youtube.com/embed/gD9aQ_xTF-0?rel=0&amp;showinfo=0"

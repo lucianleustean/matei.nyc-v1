@@ -1,0 +1,271 @@
+.hovered {
+  background: {
+    repeat: no-repeat;
+    position-x: center;
+    position-y: center;
+    size: cover;
+  }
+}
+
+#container {
+  position: relative;
+  margin-top: 100vh;
+}
+
+#project {
+  background-color: white;
+  min-height: 100%;
+  padding: 0 10% 5% 10%;
+  max-width: 100em;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+
+  .grafics {
+    position: relative;
+
+    .gif {
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  .description { p { padding: .5em; } }
+
+  .delimitation {
+    text-align: center;
+    padding: 5%;
+  }
+
+  .matei .description {
+    p {
+       padding: .5em;
+       text-align: right;
+     }
+   }
+
+  .google {
+    .description { margin: 0 20em 0 9em; }
+
+    .gif {
+      right: 9%;
+      max-width: 45%;
+      top: 4%;
+    }
+
+    .video {
+      height: 28%;
+      right: 2.5%;
+      top: 35%;
+      width: 50%;
+    }
+  }
+
+  .hornbach {
+    .description { margin: 0 34em 0 7em; }
+
+    .videos {
+      .video:nth-child(1) {
+        height: 18%;
+        left: 44%;
+        top: 37%;
+        width: 43%;
+      }
+
+      .video:nth-child(2) {
+        height: 18%;
+        right: 1%;
+        top: 69%;
+        width: 43%;
+      }
+    }
+  }
+
+  .cnn {
+    .description {
+      margin: 0 0 0 33em;
+      text-align: right;
+    }
+
+    .gif {
+      left: 5%;
+      max-width: 17%;
+      top: 36%;
+    }
+
+    .video {
+      height: 21%;
+      right: 5.7%;
+      top: 45%;
+      width: 38.4%;
+    }
+  }
+
+  .adidas {
+    .description { margin: 0 19em 0 13em; }
+
+    .gif {
+      right: 0%;
+      max-width: 18%;
+      top: 22%;
+    }
+
+    .video {
+      left: 13%;
+      height: 24.5%;
+      top: 29%;
+      width: 45%;
+    }
+  }
+
+  .godaddy {
+    .description { margin: 0 25em 0 10em;}
+  }
+
+  .fanta {
+    .description {
+       margin: 0 0 0 30em;
+       text-align: right;
+     }
+
+    .videos {
+      .video:nth-child(1) {
+        height: 24%;
+        left: 12%;
+        top: 1.2%;
+        width: 45%;
+      }
+
+      .video:nth-child(2) {
+        height: 22%;
+        right: 3%;
+        top: 56.3%;
+        width: 39.5%;
+      }
+    }
+  }
+
+  .lole {
+    .description { margin: 0 15em 0 20em; }
+
+    .video {
+      height: 23%;
+      right: 3.8%;
+      top: 7%;
+      width: 49.5%;
+    }
+  }
+
+  .att {
+    .description { margin: 0 0 0 33em; }
+
+    .video {
+      height: 27%;
+      left: 5.3%;
+      top: 1%;
+      width: 49.5%;
+    }
+  }
+
+  .netjets .description { margin: 0 10em 0 22em; }
+
+  .ibm {
+    .description { margin: 0 25em 0 10em; }
+
+    .gifs {
+      .gif {
+        &:nth-of-type(1) {
+          left: 12.5%;
+          max-width: 19%;
+          top: 47.3%;
+        }
+
+        &:nth-of-type(2) {
+          left: 56.6%;
+          max-width: 26%;
+          top: 61.4%;
+        }
+
+        &:nth-of-type(3) {
+          left: 32.1%;
+          max-width: 24%;
+          top: 55.5%;
+        }
+
+        &:nth-of-type(4) {
+          left: 56.6%;
+          max-width: 23%;
+          top: 35%;
+        }
+
+        &:nth-of-type(5) {
+          left: 32.1%;
+          max-width: 24%;
+          top: 14.9%;
+        }
+
+        &:nth-of-type(6) {
+          left: 56.6%;
+          max-width: 25%;
+          top: 6.2%;
+        }
+      }
+    }
+  }
+
+  .jager {
+    .description { margin: 0 19em 0 13em; }
+
+    .video {
+      height: 18%;
+      left: 46.6%;
+      top: 1.5%;
+      width: 46.5%;
+    }
+  }
+
+  .netwerking {
+    .description { margin: 0 15em 0 14em; }
+
+    .gif {
+      left: 37%;
+      max-width: 26%;
+      top: 0;
+    }
+
+    .github {
+      position: absolute;
+      left: 37%;
+      height: 24.5%;
+      top: 32%;
+      width: 35%;
+    }
+  }
+
+  .theyskens .description { margin: 0 15em 0 20em; }
+
+  .bals .description { margin: 0 15em 0 25em; }
+}
+
+// Preload background images for navigation
+body:after {
+  position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+  content:
+    image-url("images/intro/adidas.jpg")
+    image-url("images/intro/at&t.jpg")
+    image-url("images/intro/bals.jpg")
+    image-url("images/intro/cnn.jpg")
+    image-url("images/intro/fanta.jpg")
+    image-url("images/intro/godaddy.jpg")
+    image-url("images/intro/google.jpg")
+    image-url("images/intro/hornbach.jpg")
+    image-url("images/intro/ibm.jpg")
+    image-url("images/intro/jager.jpg")
+    image-url("images/intro/lole.jpg")
+    image-url("images/intro/matei.jpg")
+    image-url("images/intro/netjets.jpg")
+    image-url("images/intro/netwerking.jpg")
+    image-url("images/intro/theyskens.jpg");
+}

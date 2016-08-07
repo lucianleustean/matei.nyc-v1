@@ -1,4 +1,4 @@
-:id: 11-ibm
+:id: ibm
 :title: IBM Cloud – Always On
 :slug: IBM-Cloud–Always-On
 :summary: IBM, cloud computing, Always On, Havas Worldwide New York, Matei Curtasu, Tumblr.
@@ -13,3 +13,10 @@
 :image:
   :title: IBM Cloud – Always On
   :url: "/images/IBM.jpg"
+:gifs:
+- :url: "images/gifs/ibm1.gif"
+- :url: "images/gifs/ibm2.gif"
+- :url: "images/gifs/ibm3.gif"
+- :url: "images/gifs/ibm4.gif"
+- :url: "images/gifs/ibm5.gif"
+- :url: "images/gifs/ibm6.gif"

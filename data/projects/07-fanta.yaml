@@ -1,19 +1,23 @@
-:id: 07-fanta
+:id: fanta
 :title: "Fanta – Play #Fanta100"
 :slug: Fanta-Play
 :summary: Fanta, Play, Heimat TBWA Berlin, Matei Curtasu, Europe, award winning campaign.
 :body: |-
-  #Fanta100 is a bucketlist of 100 things to do before turning 18. With Fanta's biggest ever integrated campaign, it encourages teens to play and live their life to the fullest.
+  <p>#Fanta100 is a bucketlist of 100 things to do before turning 18. With Fanta's biggest ever integrated campaign, it encourages teens to play and live their life to the fullest.</p>
 
-  On Instagram, Facebook, Twitter, Vine and Tumblr, teens explore, share and engage in solving the tasks in unique ways and win prizes.
+  <p>On Instagram, Facebook, Twitter, Vine and Tumblr, teens explore, share and engage in solving the tasks in unique ways and win prizes.</p>
 
-  The campaign, started in summer 2014 and set to expand to 35 European countries over 2 years, includes events, selfie marathons, collaborations with key YouTube stars, and more.
+  <p>The campaign, started in summer 2014 and set to expand to 35 European countries over 2 years, includes events, selfie marathons, collaborations with key YouTube stars, and more.</p>
 
-  The platform aggregates content created by the teens, and the most voted pictures are awarded, as well as shared by Fanta on social media. Visits on Fanta’s website grew by 350%, and social media traffic rose by 300%.
+  <p>The platform aggregates content created by the teens, and the most voted pictures are awarded, as well as shared by Fanta on social media. Visits on Fanta’s website grew by 350%, and social media traffic rose by 300%.</p>
 
-  Agency: Heimat\TBWA Berlin
-
-  Production: Scholz & Volkmer Berlin
+  <p>Agency: Heimat\TBWA Berlin<br />
+  Production: Scholz & Volkmer Berlin</p>
 :image:
   :title: "Fanta – Play #Fanta100"
   :url: "/images/FANTA.jpg"
+:videos:
+- :overlayImage: "images/videos/fanta_vid1.jpg"
+  :url: "https://www.youtube.com/embed/HIUHVmbJuuc?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/fanta_vid2.jpg"
+  :url: "https://www.youtube.com/embed/rmzDouCxCXg?rel=0&amp;showinfo=0"

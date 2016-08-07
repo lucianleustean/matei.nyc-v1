@@ -1,0 +1,99 @@
+#header {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+
+  a, a:hover, a:focus, a:visited   {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px black;
+  }
+
+  .navigation {
+    max-width: 100em;
+    margin: auto;
+    padding: 10% 5%;
+  }
+
+  ul {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  li {
+    margin: auto;
+    text-align: center;
+
+    &:nth-child(1) { margin-bottom: 2em;}
+    &:nth-child(2),
+    &:nth-child(5),
+    &:nth-child(11),
+    &:nth-child(13) {
+      margin-bottom: 1em;
+    }
+  }
+
+  .nav {
+    width: 25em;
+  }
+
+  .matei {
+    float: right;
+  }
+
+  .google {
+    margin-right: 25%;
+  }
+
+  .hornbach {
+    float: left;
+  }
+
+  .cnn {
+    margin-left: 25%;
+  }
+
+  .adidas {
+    margin-right: 25%;
+  }
+
+  .godaddy {
+    float: left;
+    margin-left: 5%;
+  }
+
+  .fanta {
+    margin-left: 10%;
+  }
+
+  .lole {
+    margin-right: 20%;
+  }
+
+  .att {
+    margin-left: 40%;
+  }
+
+  .netjets {}
+
+  .ibm {
+    margin-right: 30%;
+  }
+
+  .jager {
+    margin-right: 30%;
+  }
+
+  .netwerking {
+    margin-left: 20%;
+  }
+
+  .theyskens {
+    margin-right: 25%;
+  }
+
+  .bals {
+    margin-left: 40%;
+  }
+}

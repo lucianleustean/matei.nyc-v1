@@ -1,4 +1,4 @@
-:id: 13-netwerking
+:id: netwerking
 :title: Havas – Netwerking
 :slug: Havas–Netwerking
 :summary: Havas New York, Matei Curtasu, Netwerking, SXSW, party, event.
@@ -13,3 +13,8 @@
 :image:
   :title: Havas – Netwerking
   :url: "/images/NETWERKING.jpg"
+:gifs:
+- :url: "images/gifs/netwerking.gif"
+:github:
+  :image: "/images/netwerking-github.jpg"
+  :url: "https://github.com/MadSciLabs/sxsw15_twerk"

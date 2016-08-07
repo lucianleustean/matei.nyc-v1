@@ -1,4 +1,4 @@
-:id: 03-hornbach
+:id: hornbach
 :title: Hornbach – Hammer
 :slug: Hornbach–Hammer
 :summary: Hornbach Hammer, Heimat TBWA, Berlin, Matei Curtasu, Cannes Lions, russian tank, WWII, advertising awards, Kai Heuser, Guido Heffels, Museum der Dinge.
@@ -9,9 +9,13 @@
 
   The last 700 hammers were sold in a series of special events under extreme conditions to fans who proved their DIY passion. 10,000,000 Facebook interactions later, the Hornbach Hammer is now a permanent piece in the “Museum der Dinge” (Museum of Oddities) in Berlin.
 
-  Agency: Heimat\TBWA Berlin
-
+  Agency: Heimat\TBWA Berlin<br />
   Production: Webguerillas Munich
 :image:
   :title: Hornbach – Hammer
   :url: "/images/HORNBACH.jpg"
+:videos:
+- :overlayImage: "images/videos/hornbach_vid1.jpg"
+  :url: "https://www.youtube.com/embed/IfWuTRMI3ZQ?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/hornbach_vid2.jpg"
+  :url: "https://www.youtube.com/embed/rF_mNsMpEVY?rel=0&amp;showinfo=0"

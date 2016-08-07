@@ -1,4 +1,4 @@
-:id: 02-google
+:id: google
 :title: Google - Urban Escape Plan
 :slug: Google-Urban-Escape-Plan
 :summary: Google Maps, Urban Escape Plan, Fluchtplan ins Grüne, Heimat TBWA Berlin, Hamburg, Munich, Matei Curtasu, nature, Instagram celebrities, advertising awards.
@@ -9,9 +9,13 @@
 
   Instagram celebrities, bloggers and photographers from Berlin, Hamburg, Munich showcased their favorite spots. The initiative increased traffic by 10.3 million visits on Google Maps, and got people to make the most out of summer.
 
-  Agency: Heimat\TBWA Berlin
-
+  Agency: Heimat\TBWA Berlin<br />
   Production: Artificial Rome
 :image:
   :title: Google – Urban Escape Plan
   :url: "/images/GOOGLE.jpg"
+:gifs:
+- :url: "images/gifs/google.gif"
+:videos:
+- :overlayImage: "images/videos/google_vid.jpg"
+  :url: "https://www.youtube.com/embed/uj6IBd0c7y8?rel=0&amp;showinfo=0"

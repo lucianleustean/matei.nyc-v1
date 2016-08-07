@@ -1,4 +1,4 @@
-:id: 12-jager
+:id: jager
 :title: Jägermeister – A Stronger Bond
 :slug: Jägermeister–A-Stronger-Bond
 :summary: Jägermeister, A Stronger Bond, Hi-ReS! New York, Matei Curtasu, Mistress Los Angeles, Slayer.
@@ -7,8 +7,11 @@
 
   By leveraging Jägermeister content across the new cloud platform, content from Facebook apps, Twitter promos, online paid media, and the brand's YouTube channel, the story of the seven men around the table was revealed.
 
-  Agency: Hi-ReS! New York
+  Agency: Hi-ReS! New York<br />
   Production: Mistress Los Angeles
 :image:
   :title: Jägermeister – A Stronger Bond
   :url: "/images/JAGER.jpg"
+:videos:
+- :overlayImage: "images/videos/jager_vid.jpg"
+  :url: "https://www.youtube.com/embed/1SXtbFXZfhg?rel=0&amp;showinfo=0"

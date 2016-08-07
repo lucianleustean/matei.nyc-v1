@@ -1,10 +1,111 @@
 @charset "utf-8";
 @import "normalize";
 
-body {
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+// Colors
+$brand-primary: black;
+$brand-primary-dark: black;
+
+// Typography
+$font: "Fira Mono", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Base styles / reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: $font;
+  font-size: .9em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 2em;
+  list-style: none;
+}
+
+a, a:hover, a:focus, a:visited   {
+  text-decoration: none;
+  color: #000;
+}
+
+.video {
+  position: absolute;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .overlayImage {
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+// Helper classes
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@import 'header';
 @import 'projects';
+
+@media screen and (max-width: 62em) {
+
+  #project .matei .description,
+  #project .google .description,
+  #project .hornbach .description,
+  #project .cnn .description,
+  #project .adidas .description,
+  #project .godaddy .description,
+  #project .fanta .description,
+  #project .lole .description,
+  #project .att .description,
+  #project .netjets .description,
+  #project .ibm .description,
+  #project .jager .description,
+  #project .netwerking .description,
+  #project .theyskens .description,
+  #project .bals .description {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 52em) {}
+
+@media screen and (max-width: 36em) {
+  #header {
+    height: 100%;
+
+    li {
+      margin-bottom: 0;
+
+      &:nth-child(2),
+      &:nth-child(1),
+      &:nth-child(5),
+      &:nth-child(11),
+      &:nth-child(13) {
+        margin-bottom: 0;
+      }
+
+      .nav {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
