@@ -20,3 +20,8 @@
             .video
               = image_tag video.overlayImage, class: "overlayImage"
               iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="hidden"
+
+      - if project.github
+        .github
+          a href="#{project.github.url}" target="_blank"
+            = image_tag project.github.image

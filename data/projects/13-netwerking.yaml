@@ -15,3 +15,6 @@
   :url: "/images/NETWERKING.jpg"
 :gifs:
 - :url: "images/gifs/netwerking.gif"
+:github:
+  :image: "/images/netwerking-github.jpg"
+  :url: "https://github.com/MadSciLabs/sxsw15_twerk"

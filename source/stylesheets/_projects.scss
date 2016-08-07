@@ -104,7 +104,10 @@
   }
 
   .fanta {
-    .description { margin: 0 0 0 30em; }
+    .description {
+       margin: 0 0 0 30em;
+       text-align: right;
+     }
 
     .videos {
       .video:nth-child(1) {
@@ -209,6 +212,14 @@
       left: 37%;
       max-width: 26%;
       top: 0;
+    }
+
+    .github {
+      position: absolute;
+      left: 37%;
+      height: 24.5%;
+      top: 32%;
+      width: 35%;
     }
   }
 
