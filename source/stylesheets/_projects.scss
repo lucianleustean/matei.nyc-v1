@@ -40,13 +40,38 @@
       max-width: 45%;
       top: 4%;
     }
+
+    .video {
+      height: 28%;
+      right: 2.5%;
+      top: 35%;
+      width: 50%;
+    }
   }
 
-  .hornbach .description {
-    margin: 0 34em 0 7em;
+  .hornbach {
+     .description {
+      margin: 0 34em 0 7em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+
+    .videos {
+      .video:nth-child(1) {
+        height: 18%;
+        left: 44%;
+        top: 37%;
+        width: 43%;
+      }
+
+      .video:nth-child(2) {
+        height: 18%;
+        right: 1%;
+        top: 69%;
+        width: 43%;
+      }
     }
   }
 
@@ -65,6 +90,13 @@
       max-width: 17%;
       top: 36%;
     }
+
+    .video {
+      height: 21%;
+      right: 5.7%;
+      top: 45%;
+      width: 38.4%;
+    }
   }
 
   .adidas {
@@ -81,6 +113,13 @@
       max-width: 18%;
       top: 22%;
     }
+
+    .video {
+      left: 13%;
+      height: 24.5%;
+      top: 29%;
+      width: 45%;
+    }
   }
 
   .godaddy {
@@ -93,28 +132,63 @@
     }
   }
 
-  .fanta .description {
-    margin: 0 0 0 30em;
+  .fanta {
+     .description {
+      margin: 0 0 0 30em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+    .videos {
+      .video:nth-child(1) {
+        height: 24%;
+        left: 12%;
+        top: 1.2%;
+        width: 45%;
+      }
+
+      .video:nth-child(2) {
+        height: 22%;
+        right: 3%;
+        top: 56.3%;
+        width: 39.5%;
+      }
     }
   }
 
-  .lole .description {
-    margin: 0 15em 0 20em;
+  .lole {
+    .description {
+      margin: 0 15em 0 20em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+
+    .video {
+      height: 23%;
+      right: 3.8%;
+      top: 7%;
+      width: 49.5%;
     }
   }
 
-  .att .description {
-    margin: 0 0 0 33em;
+  .att {
+    .description {
+      margin: 0 0 0 33em;
 
-    p {
-      padding: .5em;
-      text-align: right;
+      p {
+        padding: .5em;
+        text-align: right;
+      }
+    }
+
+    .video {
+      height: 27%;
+      left: 5.3%;
+      top: 1%;
+      width: 49.5%;
     }
   }
 
@@ -176,11 +250,20 @@
     }
   }
 
-  .jager .description {
-    margin: 0 19em 0 13em;
+  .jager {
+    .description {
+      margin: 0 19em 0 13em;
 
-    p {
-      padding: .5em;
+      p {
+        padding: .5em;
+      }
+    }
+
+    .video {
+      height: 18%;
+      left: 46.6%;
+      top: 1.5%;
+      width: 46.5%;
     }
   }
 

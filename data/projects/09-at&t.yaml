@@ -11,3 +11,6 @@
 :image:
   :title: AT&T – Brackets By 6-Year-Olds
   :url: "/images/AT&T.jpg"
+:videos:
+- :overlayImage: "images/videos/att_vid.png"
+  :url: "https://www.youtube.com/embed/S8BnpDYfkA8?rel=0&amp;showinfo=0"

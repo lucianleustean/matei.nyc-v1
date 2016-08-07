@@ -13,3 +13,6 @@
   :url: "/images/ADIDAS.jpg"
 :gifs:
 - :url: "images/gifs/adidas.gif"
+:videos:
+- :overlayImage: "images/videos/adidas_vid.png"
+  :url: "https://www.youtube.com/embed/gD9aQ_xTF-0?rel=0&amp;showinfo=0"

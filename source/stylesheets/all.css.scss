@@ -32,6 +32,15 @@ a, a:hover, a:focus, a:visited   {
   text-shadow: 0.5px 0.5px 1px black;
 }
 
+.video {
+  position: absolute;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 // Helper classes
 .clearfix:before,
 .clearfix:after {

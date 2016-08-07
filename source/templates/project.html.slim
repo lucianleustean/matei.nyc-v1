@@ -13,3 +13,8 @@
         .gifs
           - project.gifs.each do |gif|
             = image_tag gif.url, class: "gif"
+
+      - if project.videos
+        .videos
+          - project.videos.each do |video|
+            iframe allowfullscreen="" frameborder="0" src="#{video.url}" class="video"

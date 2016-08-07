@@ -17,3 +17,6 @@
   :url: "/images/CNN.jpg"
 :gifs:
 - :url: "images/gifs/cnn.gif"
+:videos:
+- :overlayImage: "images/videos/cnn_vid.png"
+  :url: "https://www.youtube.com/embed/Mi-ffPOZYpU?rel=0&amp;showinfo=0"
