@@ -17,7 +17,8 @@ $font: "Fira Mono", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 body {
   font-family: $font;
-  font-size: 1em;
+  font-size: .9em;
+  line-height: 1em;
   text-transform: uppercase;
 }
 
@@ -28,8 +29,7 @@ ul {
 
 a, a:hover, a:focus, a:visited   {
   text-decoration: none;
-  color: white;
-  text-shadow: 0.5px 0.5px 1px black;
+  color: #000;
 }
 
 .video {
