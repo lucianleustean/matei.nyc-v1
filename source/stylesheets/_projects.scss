@@ -9,7 +9,7 @@
 
 .project {
   min-height: 100%;
-  padding: 10%;
+  padding: 5% 10%;
   max-width: 100em;
   margin: auto;
 
@@ -26,22 +26,10 @@
     }
   }
 
-  .description {
-    text-align: right;
-
-    p {
-      padding: .5em;
-    }
-  }
+  .description { p { padding: .5em; } }
 
   .google {
-    .description {
-      margin: 0 20em 0 9em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 20em 0 9em; }
 
     .gif {
       right: 9%;
@@ -58,13 +46,7 @@
   }
 
   .hornbach {
-     .description {
-      margin: 0 34em 0 7em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 34em 0 7em; }
 
     .videos {
       .video:nth-child(1) {
@@ -84,14 +66,7 @@
   }
 
   .cnn {
-    .description {
-      margin: 0 0 0 33em;
-
-      p {
-        padding: .5em;
-        text-align: right;
-      }
-    }
+    .description { margin: 0 0 0 33em; }
 
     .gif {
       left: 5%;
@@ -108,13 +83,7 @@
   }
 
   .adidas {
-    .description {
-      margin: 0 19em 0 13em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 19em 0 13em; }
 
     .gif {
       right: 0%;
@@ -131,23 +100,12 @@
   }
 
   .godaddy {
-    .description {
-      margin: 0 25em 0 10em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 25em 0 10em;}
   }
 
   .fanta {
-     .description {
-      margin: 0 0 0 30em;
+    .description { margin: 0 0 0 30em; }
 
-      p {
-        padding: .5em;
-      }
-    }
     .videos {
       .video:nth-child(1) {
         height: 24%;
@@ -166,13 +124,7 @@
   }
 
   .lole {
-    .description {
-      margin: 0 15em 0 20em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 15em 0 20em; }
 
     .video {
       height: 23%;
@@ -183,14 +135,7 @@
   }
 
   .att {
-    .description {
-      margin: 0 0 0 33em;
-
-      p {
-        padding: .5em;
-        text-align: right;
-      }
-    }
+    .description { margin: 0 0 0 33em; }
 
     .video {
       height: 27%;
@@ -200,22 +145,10 @@
     }
   }
 
-  .netjets .description {
-    margin: 0 10em 0 22em;
-
-    p {
-      padding: .5em;
-    }
-  }
+  .netjets .description { margin: 0 10em 0 22em; }
 
   .ibm {
-    .description {
-      margin: 0 25em 0 10em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 25em 0 10em; }
 
     .gifs {
       .gif {
@@ -259,13 +192,7 @@
   }
 
   .jager {
-    .description {
-      margin: 0 19em 0 13em;
-
-      p {
-        padding: .5em;
-      }
-    }
+    .description { margin: 0 19em 0 13em; }
 
     .video {
       height: 18%;
@@ -276,14 +203,7 @@
   }
 
   .netwerking {
-    .description {
-      margin: 0 15em 0 14em;
-
-      p {
-        padding: .5em;
-        text-align: right;
-      }
-    }
+    .description { margin: 0 15em 0 14em; }
 
     .gif {
       left: 37%;
@@ -292,22 +212,9 @@
     }
   }
 
-  .theyskens .description {
-    margin: 0 15em 0 20em;
+  .theyskens .description { margin: 0 15em 0 20em; }
 
-    p {
-      padding: .5em;
-    }
-  }
-
-  .bals .description {
-    margin: 0 15em 0 25em;
-
-    p {
-      padding: .5em;
-      text-align: right;
-    }
-  }
+  .bals .description { margin: 0 15em 0 25em; }
 }
 
 // Preload background images for navigation
