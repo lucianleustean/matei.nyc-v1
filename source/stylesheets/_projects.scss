@@ -122,10 +122,6 @@
     }
   }
 
-  .godaddy {
-    .description { margin: 0 25em 0 10em;}
-  }
-
   .fanta {
     .description {
        margin: 0 0 0 30em;
@@ -173,50 +169,6 @@
 
   .netjets .description { margin: 0 10em 0 22em; }
 
-  .ibm {
-    .description { margin: 0 25em 0 10em; }
-
-    .gifs {
-      .gif {
-        &:nth-of-type(1) {
-          left: 12.5%;
-          max-width: 19%;
-          top: 47.3%;
-        }
-
-        &:nth-of-type(2) {
-          left: 56.6%;
-          max-width: 26%;
-          top: 61.4%;
-        }
-
-        &:nth-of-type(3) {
-          left: 32.1%;
-          max-width: 24%;
-          top: 55.5%;
-        }
-
-        &:nth-of-type(4) {
-          left: 56.6%;
-          max-width: 23%;
-          top: 35%;
-        }
-
-        &:nth-of-type(5) {
-          left: 32.1%;
-          max-width: 24%;
-          top: 14.9%;
-        }
-
-        &:nth-of-type(6) {
-          left: 56.6%;
-          max-width: 25%;
-          top: 6.2%;
-        }
-      }
-    }
-  }
-
   .jager {
     .description { margin: 0 19em 0 13em; }
 
@@ -260,10 +212,8 @@ body:after {
     image-url("images/intro/bals.jpg")
     image-url("images/intro/cnn.jpg")
     image-url("images/intro/fanta.jpg")
-    image-url("images/intro/godaddy.jpg")
     image-url("images/intro/google.jpg")
     image-url("images/intro/hornbach.jpg")
-    image-url("images/intro/ibm.jpg")
     image-url("images/intro/jager.jpg")
     image-url("images/intro/lole.jpg")
     image-url("images/intro/matei.jpg")
