@@ -1,0 +1,25 @@
+:id: nike
+:title: "NIKE - #AREWERUNNINGTODAY"
+:slug: NIKE-AREWERUNNINGTODAY
+:summary: NIKE, ARE WE RUNNING TODAY, CREATIVE COSMOS 15, Matthias Schweighoefer, A Nice Idea Every Day, Berlin, Apple Watch, Instagram, RED, 16mm, Matei Curtasu
+:body: |-
+  <p>#AREWERUNNINGTODAY NIKE launch campaign in Berlin featuring actor/musician/athlete Matthias Schweighöfer.</p>
+
+  <p>Weekly challenges released on Instagram as part of the JDI Sunday international movement. SHOT ON 16MM & RED FOR THE INSTAGRAM KIDS.</p>
+
+  <p>Agency: Creative Cosmos 15 Berlin<br />
+  Production: Mutter & Vater Berlin</p>
+:image:
+  :title: "NIKE - #AREWERUNNINGTODAY"
+  :url: "/images/NIKE.jpg"
+:videos:
+- :overlayImage: "images/videos/nike_vid1.jpg"
+  :url: "https://www.youtube.com/embed/0mP5Hc-jRB8?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/nike_vid2.jpg"
+  :url: "https://www.youtube.com/embed/Ou4pFEHLbeg?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/nike_vid3.jpg"
+  :url: "https://www.youtube.com/embed/wiGM2QyrM7Y?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/nike_vid4.jpg"
+  :url: "https://www.youtube.com/embed/nIPUcIBcng8?rel=0&amp;showinfo=0"
+- :overlayImage: "images/videos/nike_vid5.jpg"
+  :url: "https://www.youtube.com/embed/HUUxl0JAnqs?rel=0&amp;showinfo=0"
